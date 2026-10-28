@@ -1,0 +1,5 @@
+{
+ "list_webhooks_error": "API request to http://127.0.0.1:5055/api/2.0/mlflow/webhooks failed with exception HTTPConnectionPool(host='127.0.0.1', port=5055): Max retries exceeded with url: /api/2.0/mlflow/webhooks (Caused by ResponseError('too many 500 error responses'))",
+ "set_alias": "ok 19.1ms",
+ "received": 0
+}
