@@ -1,0 +1,9 @@
+tag,exp,meta,reps,evidently,pandas,numpy,python,jobs,meta_end,elapsed_s
+050,validate,True,25,0.5.0,2.2.3,2.0.2,3.10.20,100,True,3.3000
+050,grid,True,200,0.5.0,2.2.3,2.0.2,3.10.20,14400,True,138.9000
+050,refsize,True,100,0.5.0,2.2.3,2.0.2,3.10.20,2400,True,11.9000
+050,sliding,True,3,0.5.0,2.2.3,2.0.2,3.10.20,12,True,42.6000
+latest,validate,True,25,0.7.23,2.3.3,2.5.4,3.12.11,100,True,6.0000
+latest,grid,True,100,0.7.23,2.3.3,2.5.4,3.12.11,7200,True,110.6000
+latest,refsize,True,100,0.7.23,2.3.3,2.5.4,3.12.11,2400,True,13.7000
+latest,sliding,True,3,0.7.23,2.3.3,2.5.4,3.12.11,12,True,38.2000
