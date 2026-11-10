@@ -1,0 +1,7 @@
+model,single_cls,mAP50,mAP50-95,precision,recall
+pretrained yolov8n.pt (COCO 80cls),False,0.0448,0.016,0.0411,0.8333
+pretrained yolov8n.pt (COCO 80cls),True,0.5121,0.4887,0.4599,0.8667
+trained 1 epoch(s) best.pt,False,0.0283,0.0064,0.0278,0.8
+trained 5 epoch(s) best.pt,False,0.994,0.9429,0.9933,0.9667
+trained 10 epoch(s) best.pt,False,0.995,0.9911,0.9983,1.0
+trained 20 epoch(s) best.pt,False,0.995,0.995,0.9983,1.0

@@ -1,0 +1,16 @@
+{
+ "n_files": 300,
+ "glob_images_equals_sorted": false,
+ "glob_labels_equals_sorted": false,
+ "glob_images_equals_creation_order": false,
+ "image_label_order_mismatch": 300,
+ "book_split_train_pairs_mismatched": "225/225",
+ "book_train_images_with_own_label_in_same_split": "166/225",
+ "book_val_images_with_own_label_in_same_split": "6/45",
+ "book_test_images_with_own_label_in_same_split": "4/30",
+ "repeat_glob_same_order": true,
+ "same_order_same_split": true,
+ "perm_order_train_overlap": "169/225",
+ "perm_order_val_overlap": "8/45",
+ "perm_order_test_overlap": "2/30"
+}

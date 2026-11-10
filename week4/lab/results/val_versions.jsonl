@@ -1,0 +1,12 @@
+{"ultralytics": "8.4.207", "weights": "mps_ep10/weights/best.pt", "batch": 1, "mAP50": 0.995, "mAP50-95": 0.9911, "precision": 0.99825, "recall": 1.0}
+{"ultralytics": "8.4.207", "weights": "mps_ep10/weights/best.pt", "batch": 8, "mAP50": 0.995, "mAP50-95": 0.9911, "precision": 0.99825, "recall": 1.0}
+{"ultralytics": "8.4.207", "weights": "cpu_det_s0_a/weights/best.pt", "batch": 1, "mAP50": 0.995, "mAP50-95": 0.89928, "precision": 0.55885, "recall": 1.0}
+{"ultralytics": "8.4.207", "weights": "cpu_det_s0_a/weights/best.pt", "batch": 8, "mAP50": 0.995, "mAP50-95": 0.89928, "precision": 0.55885, "recall": 1.0}
+{"ultralytics": "8.3.56", "weights": "mps_ep10/weights/best.pt", "batch": 1, "mAP50": 0.995, "mAP50-95": 0.99112, "precision": 0.99825, "recall": 1.0}
+{"ultralytics": "8.3.56", "weights": "mps_ep10/weights/best.pt", "batch": 8, "mAP50": 0.995, "mAP50-95": 0.99112, "precision": 0.99825, "recall": 1.0}
+{"ultralytics": "8.3.56", "weights": "cpu_det_s0_a/weights/best.pt", "batch": 1, "mAP50": 0.995, "mAP50-95": 0.89932, "precision": 0.55885, "recall": 1.0}
+{"ultralytics": "8.3.56", "weights": "cpu_det_s0_a/weights/best.pt", "batch": 8, "mAP50": 0.995, "mAP50-95": 0.89932, "precision": 0.55885, "recall": 1.0}
+{"ultralytics": "8.0.194", "weights": "mps_ep10/weights/best.pt", "batch": 1, "mAP50": 0.995, "mAP50-95": 0.99112, "precision": 0.99825, "recall": 1.0}
+{"ultralytics": "8.0.194", "weights": "mps_ep10/weights/best.pt", "batch": 8, "mAP50": 0.995, "mAP50-95": 0.99112, "precision": 0.99825, "recall": 1.0}
+{"ultralytics": "8.0.194", "weights": "cpu_det_s0_a/weights/best.pt", "batch": 1, "mAP50": 0.995, "mAP50-95": 0.89932, "precision": 0.55885, "recall": 1.0}
+{"ultralytics": "8.0.194", "weights": "cpu_det_s0_a/weights/best.pt", "batch": 8, "mAP50": 0.995, "mAP50-95": 0.89932, "precision": 0.55885, "recall": 1.0}

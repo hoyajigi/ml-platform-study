@@ -1,0 +1,17 @@
+# idle before YOLO
+Processes: 907 total, 3 running, 904 sleeping, 4120 threads 
+2026/11/11 08:20:23
+Load Avg: 4.77, 4.61, 4.29 
+CPU usage: 12.30% user, 20.92% sys, 66.76% idle 
+SharedLibs: 1117M resident, 196M data, 171M linkedit.
+MemRegions: 298015 total, 8293M resident, 679M private, 3184M shared.
+PhysMem: 23G used (3626M wired, 1130M compressor), 12G unused.
+VM: 431T vsize, 57G framework vsize, 257689(0) swapins, 313566(0) swapouts.
+Networks: packets: 144747593/165G in, 71881077/55G out.
+Disks: 15493459/373G read, 16188313/343G written.
+Now drawing from 'Battery Power'
+ -InternalBattery-0 (id=24182883)	89%; discharging; 2:47 remaining present: true
+# idle before recsys
+Load Avg: 12.33, 9.29, 6.58 
+CPU usage: 19.82% user, 18.96% sys, 61.20% idle 
+# note: 다른 Claude 세션의 cargo/rustc(PID 13415, 08:27:28 시작, ~660% CPU)가 mps_ep20 후반과 recsys 측정 구간에 겹침

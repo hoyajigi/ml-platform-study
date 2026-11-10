@@ -1,0 +1,7 @@
+pair,a,b,init_equal,final_tensor_sha_equal,max_abs_diff,worst_tensor,train_l1_seq_identical,max_epoch_train_l1_diff,a_test_rmse_last,b_test_rmse_last,test_rmse_diff,train_l1_6dp_equal
+CPU seed0 2회,cpu_s0_a,cpu_s0_b,True,True,0.0,user_factors.weight,True,0.0,1.1978426131037219,1.1978426131037219,0.0,True
+MPS seed0 2회,mps_s0_a,mps_s0_b,True,True,0.0,user_factors.weight,True,0.0,1.1957498027465752,1.1957498027465752,0.0,True
+CPU vs MPS,cpu_s0_a,mps_s0_a,True,False,0.006363093852996826,linear2.weight,False,0.0015836827067299275,1.1978426131037219,1.1957498027465752,0.0020928103571467016,False
+MPS use_deterministic False vs True,mps_s0_a,mps_s0_det,True,True,0.0,user_factors.weight,True,0.0,1.1957498027465752,1.1957498027465752,0.0,True
+CPU seed 미설정(원본 코드) 2회,cpu_noseed_a,cpu_noseed_b,False,False,7.505478858947754,item_factors.weight,False,0.050368044720209726,1.2399471657733279,1.2008867037508713,0.03906046202245661,False
+CPU num_workers 0 vs 2,cpu_s0_a,cpu_s0_w2,True,True,0.0,user_factors.weight,True,0.0,1.1978426131037219,1.1978426131037219,0.0,True

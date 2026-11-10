@@ -1,0 +1,10 @@
+pair,a,b,last_pt_file_sha_equal,saved_fp16_tensor_sha_equal,fp32_ema_tensor_sha_equal,fp32_ema_max_abs_diff,fp32_ema_worst_key,fp32_ema_tensors_differing,fp32_raw_max_abs_diff,saved_fp16_max_abs_diff,per_epoch_metrics_identical,a_mAP50-95_last,b_mAP50-95_last,a_box_loss_last,b_box_loss_last
+CPU 같은 설정 2회,cpu_det_s0_a,cpu_det_s0_b,False,True,True,0.0,,0/355,0.0,0.0,True,0.90307,0.90307,0.46347,0.46347
+MPS 같은 설정 2회,mps_det_s0_a,mps_det_s0_b,False,True,True,0.0,,0/355,0.0,0.0,True,0.8785,0.8785,0.45878,0.45878
+MPS 같은 설정 (a vs c),mps_det_s0_a,mps_det_s0_c,False,False,False,1.3828277587890625e-05,model.0.bn.weight,271/355,1.3828277587890625e-05,6.103515625e-05,True,0.8785,0.8785,0.45878,0.45878
+MPS 같은 설정 (b vs c),mps_det_s0_b,mps_det_s0_c,False,False,False,1.3828277587890625e-05,model.0.bn.weight,271/355,1.3828277587890625e-05,6.103515625e-05,True,0.8785,0.8785,0.45878,0.45878
+CPU vs MPS,cpu_det_s0_a,mps_det_s0_a,False,False,False,0.021542668342590332,model.9.cv2.bn.running_mean,289/355,0.028663694858551025,0.021484375,False,0.90307,0.8785,0.46347,0.45878
+CPU deterministic True vs False,cpu_det_s0_a,cpu_nondet_s0,False,True,True,0.0,,0/355,0.0,0.0,True,0.90307,0.90307,0.46347,0.46347
+MPS deterministic True vs False,mps_det_s0_a,mps_nondet_s0,False,True,True,0.0,,0/355,0.0,0.0,True,0.8785,0.8785,0.45878,0.45878
+CPU seed 0 vs 1,cpu_det_s0_a,cpu_det_s1,False,False,False,1.7382206916809082,model.9.cv2.bn.running_mean,297/355,1.902091145515442,1.73779296875,False,0.90307,0.89709,0.46347,0.47046
+MPS seed 0 vs 1,mps_det_s0_a,mps_det_s1,False,False,False,1.7676959037780762,model.9.cv2.bn.running_mean,297/355,1.934222936630249,1.76806640625,False,0.8785,0.8854,0.45878,0.47285

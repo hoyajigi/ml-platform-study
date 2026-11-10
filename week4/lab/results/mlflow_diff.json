@@ -1,0 +1,189 @@
+[
+ {
+  "experiment": "yolo-repro",
+  "a": "mps_det_s0_e",
+  "b": "mps_det_s0_h",
+  "n_params": 115,
+  "params_differing": {
+   "name": [
+    "mps_det_s0_e",
+    "mps_det_s0_h"
+   ],
+   "save_dir": [
+    "/private/tmp/claude-501/-Users-macbook-personal/ed139640-917e-4192-92c9-3dc847b1b9e2/scratchpad/repro-lab/runs/mps_det_s0_e",
+    "/private/tmp/claude-501/-Users-macbook-personal/ed139640-917e-4192-92c9-3dc847b1b9e2/scratchpad/repro-lab/runs/mps_det_s0_h"
+   ]
+  },
+  "n_metrics": 13,
+  "metrics_differing": {},
+  "tags_differing": [],
+  "source_tags": {
+   "mlflow.source.name": "/Users/macbook/personal/ml-platform-study/week4/lab/train_yolo.py",
+   "mlflow.source.git.commit": "034aaa94292a59cdb6724b028e781772a19cf85a"
+  }
+ },
+ {
+  "experiment": "yolo-repro",
+  "a": "mps_det_s0_e",
+  "b": "mps_det_s0_f",
+  "n_params": 115,
+  "params_differing": {
+   "name": [
+    "mps_det_s0_e",
+    "mps_det_s0_f"
+   ],
+   "save_dir": [
+    "/private/tmp/claude-501/-Users-macbook-personal/ed139640-917e-4192-92c9-3dc847b1b9e2/scratchpad/repro-lab/runs/mps_det_s0_e",
+    "/private/tmp/claude-501/-Users-macbook-personal/ed139640-917e-4192-92c9-3dc847b1b9e2/scratchpad/repro-lab/runs/mps_det_s0_f"
+   ]
+  },
+  "n_metrics": 13,
+  "metrics_differing": {
+   "metrics/mAP50-95B": [
+    0.8785010019009828,
+    0.8740892170105928
+   ],
+   "metrics/mAP50B": [
+    0.9623937652837732,
+    0.9308746770025841
+   ],
+   "metrics/precisionB": [
+    0.5146339932510697,
+    0.5683283462308494
+   ],
+   "train/box_loss": [
+    0.45878,
+    0.46358
+   ],
+   "train/cls_loss": [
+    1.22668,
+    1.22734
+   ],
+   "train/dfl_loss": [
+    0.89342,
+    0.89948
+   ],
+   "val/box_loss": [
+    0.38862,
+    0.36851
+   ],
+   "val/cls_loss": [
+    1.67348,
+    1.40295
+   ],
+   "val/dfl_loss": [
+    0.8845,
+    0.88091
+   ]
+  },
+  "tags_differing": [],
+  "source_tags": {
+   "mlflow.source.name": "/Users/macbook/personal/ml-platform-study/week4/lab/train_yolo.py",
+   "mlflow.source.git.commit": "034aaa94292a59cdb6724b028e781772a19cf85a"
+  }
+ },
+ {
+  "experiment": "yolo-repro",
+  "a": "cpu_det_s0_c",
+  "b": "cpu_det_s0_d",
+  "n_params": 115,
+  "params_differing": {
+   "name": [
+    "cpu_det_s0_c",
+    "cpu_det_s0_d"
+   ],
+   "save_dir": [
+    "/private/tmp/claude-501/-Users-macbook-personal/ed139640-917e-4192-92c9-3dc847b1b9e2/scratchpad/repro-lab/runs/cpu_det_s0_c",
+    "/private/tmp/claude-501/-Users-macbook-personal/ed139640-917e-4192-92c9-3dc847b1b9e2/scratchpad/repro-lab/runs/cpu_det_s0_d"
+   ]
+  },
+  "n_metrics": 13,
+  "metrics_differing": {},
+  "tags_differing": [],
+  "source_tags": {
+   "mlflow.source.name": "/Users/macbook/personal/ml-platform-study/week4/lab/train_yolo.py",
+   "mlflow.source.git.commit": "034aaa94292a59cdb6724b028e781772a19cf85a"
+  }
+ },
+ {
+  "experiment": "recsys-repro",
+  "a": "cpu_s0_a",
+  "b": "cpu_s0_b",
+  "n_params": 14,
+  "params_differing": {},
+  "n_metrics": 4,
+  "metrics_differing": {},
+  "tags_differing": [],
+  "source_tags": {
+   "mlflow.source.name": "/Users/macbook/personal/ml-platform-study/week4/lab/train_recsys.py",
+   "mlflow.source.git.commit": "034aaa94292a59cdb6724b028e781772a19cf85a"
+  }
+ },
+ {
+  "experiment": "recsys-repro",
+  "a": "cpu_s0_a",
+  "b": "mps_s0_a",
+  "n_params": 14,
+  "params_differing": {
+   "device": [
+    "cpu",
+    "mps"
+   ]
+  },
+  "n_metrics": 4,
+  "metrics_differing": {
+   "avg_testing_loss": [
+    0.957396,
+    0.958098
+   ],
+   "avg_training_loss": [
+    0.990425,
+    0.989609
+   ],
+   "avg_training_loss_full": [
+    0.9904249090400249,
+    0.989609492798048
+   ],
+   "test_rmse_full": [
+    1.1978426131037219,
+    1.1957498027465752
+   ]
+  },
+  "tags_differing": [],
+  "source_tags": {
+   "mlflow.source.name": "/Users/macbook/personal/ml-platform-study/week4/lab/train_recsys.py",
+   "mlflow.source.git.commit": "034aaa94292a59cdb6724b028e781772a19cf85a"
+  }
+ },
+ {
+  "experiment": "recsys-repro",
+  "a": "cpu_noseed_a",
+  "b": "cpu_noseed_b",
+  "n_params": 14,
+  "params_differing": {},
+  "n_metrics": 4,
+  "metrics_differing": {
+   "avg_testing_loss": [
+    0.991787,
+    0.952536
+   ],
+   "avg_training_loss": [
+    1.018915,
+    0.988461
+   ],
+   "avg_training_loss_full": [
+    1.0189145640506987,
+    0.9884606633813559
+   ],
+   "test_rmse_full": [
+    1.2399471657733279,
+    1.2008867037508713
+   ]
+  },
+  "tags_differing": [],
+  "source_tags": {
+   "mlflow.source.name": "/Users/macbook/personal/ml-platform-study/week4/lab/train_recsys.py",
+   "mlflow.source.git.commit": "034aaa94292a59cdb6724b028e781772a19cf85a"
+  }
+ }
+]

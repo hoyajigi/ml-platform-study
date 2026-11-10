@@ -1,0 +1,32 @@
+{
+ "cpu_det_s0_a": {
+  "fp32_ema_sha12": "08d5ebd9f95d",
+  "max_abs_diff_vs_first": 0.0,
+  "last_mAP50-95": "0.90307",
+  "last_box_loss": "0.46347"
+ },
+ "cpu_det_s0_b": {
+  "fp32_ema_sha12": "08d5ebd9f95d",
+  "max_abs_diff_vs_first": 0.0,
+  "last_mAP50-95": "0.90307",
+  "last_box_loss": "0.46347"
+ },
+ "cpu_det_s0_c": {
+  "fp32_ema_sha12": "08d5ebd9f95d",
+  "max_abs_diff_vs_first": 0.0,
+  "last_mAP50-95": "0.90307",
+  "last_box_loss": "0.46347"
+ },
+ "cpu_det_s0_d": {
+  "fp32_ema_sha12": "08d5ebd9f95d",
+  "max_abs_diff_vs_first": 0.0,
+  "last_mAP50-95": "0.90307",
+  "last_box_loss": "0.46347"
+ },
+ "cpu_nondet_s0": {
+  "fp32_ema_sha12": "08d5ebd9f95d",
+  "max_abs_diff_vs_first": 0.0,
+  "last_mAP50-95": "0.90307",
+  "last_box_loss": "0.46347"
+ }
+}
