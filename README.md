@@ -10,6 +10,7 @@ CloudNet@ 머신러닝 플랫폼 엔지니어링 책 스터디(2026-10-18 ~ 11-2
 | 2주차 | [레지스트리 웹훅은 7초 안에 못 받으면 사라진다](week2/README.md) |
 | 3주차 | [학습 데이터를 그대로 넣어도 드리프트로 나온다](week3/README.md) |
 | 4주차 | [같은 시드로 다시 훈련했는데 MPS에서는 다른 모델이 나왔다](week4/README.md) |
+| 5주차 | [alias를 옮겨도 서빙 중인 모델은 바뀌지 않았다](week5/README.md) |
 
 1주차: ML 수명주기와 플랫폼 구성, MLOps 폐쇄 루프·DevOps와의 차이·성숙도 레벨, Docker·K8s·Helm·Gitea Actions·Argo CD·Prometheus 실습
 
@@ -18,3 +19,5 @@ CloudNet@ 머신러닝 플랫폼 엔지니어링 책 스터디(2026-10-18 ~ 11-2
 3주차: BentoML·Yatai 서빙, Evidently 드리프트(배치·API), Kubeflow Notebooks, KFP 데이터 전달, Evidently 드리프트 판정의 표본 크기 의존성 실측
 
 4주차: 캡스톤 데이터 준비(MIDV-500, MovieLens 25M), YOLO 훈련·검증 컴포넌트, PVC, CPU/MPS 훈련 재현성·MLflow 리니지 실측
+
+5주차: TensorBoard, 영화 추천기 훈련·MLflow 추적·alias 승격, BentoML·MLflow·KServe 서빙, alias 이동 반영·서빙 버전 노출·배칭 지연 실측

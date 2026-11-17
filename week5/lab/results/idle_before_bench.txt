@@ -1,0 +1,12 @@
+CPU usage: 11.59% user, 3.86% sys, 84.54% idle 
+SharedLibs: 1184M resident, 146M data, 137M linkedit.
+MemRegions: 32 total, 656K resident, 491M private, 3174M shared.
+PhysMem: 28G used (3390M wired, 1667M compressor), 7783M unused.
+VM: 409T vsize, 57G framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 75739225/89G in, 22056615/11G out.
+Disks: 5469611/209G read, 13754369/1586G written.
+
+PID    COMMAND          %CPU
+411    WindowServer     47.2
+23381  iTerm2           17.1
+62116  Brave Browser He 12.9

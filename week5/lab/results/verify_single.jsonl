@@ -1,0 +1,3 @@
+{"target": "mlserve", "rows": 1000, "bit_exact": true, "n_diff_rows": 0, "maxabs": 0.0}
+{"target": "bento_nobatch", "rows": 1000, "bit_exact": true, "n_diff_rows": 0, "maxabs": 0.0}
+{"target": "bento_batch1s", "rows": 1000, "bit_exact": true, "n_diff_rows": 0, "maxabs": 0.0}

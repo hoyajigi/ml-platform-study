@@ -1,0 +1,14 @@
+{"label": "inproc", "conc": 1, "n": 1000, "p50_ms": 5.25, "p99_ms": 5.95, "mean_ms": 5.34, "rps": 187.2}
+{"label": "mlserve", "conc": 1, "n": 1000, "p50_ms": 7.7, "p99_ms": 8.39, "mean_ms": 7.57, "rps": 132.0}
+{"label": "mlserve", "conc": 8, "n": 1000, "p50_ms": 61.46, "p99_ms": 93.86, "mean_ms": 61.62, "rps": 129.6}
+{"label": "mlserve", "conc": 32, "n": 1000, "p50_ms": 255.69, "p99_ms": 404.6, "mean_ms": 252.45, "rps": 126.0}
+{"label": "bento_nobatch", "conc": 1, "n": 1000, "p50_ms": 7.01, "p99_ms": 9.01, "mean_ms": 7.21, "rps": 138.6}
+{"label": "bento_nobatch", "conc": 8, "n": 1000, "p50_ms": 64.6, "p99_ms": 82.71, "mean_ms": 65.89, "rps": 121.0}
+{"label": "bento_nobatch", "conc": 32, "n": 1000, "p50_ms": 292.09, "p99_ms": 395.66, "mean_ms": 293.53, "rps": 107.5}
+{"label": "bento_batch", "conc": 1, "n": 1000, "p50_ms": 8.19, "p99_ms": 10.03, "mean_ms": 8.23, "rps": 121.4}
+{"label": "bento_batch20ms", "conc": 1, "n": 1000, "p50_ms": 7.42, "p99_ms": 10.59, "mean_ms": 7.81, "rps_ok": 128.1, "errors": {}}
+{"label": "bento_batch20ms", "conc": 8, "n": 622, "p50_ms": 20.18, "p99_ms": 26.75, "mean_ms": 19.98, "rps_ok": 282.6, "errors": {"503": 378}}
+{"label": "bento_batch20ms", "conc": 32, "n": 811, "p50_ms": 39.34, "p99_ms": 648.13, "mean_ms": 101.75, "rps_ok": 241.6, "errors": {"503": 189}}
+{"label": "bento_batch1s", "conc": 1, "n": 1000, "p50_ms": 8.03, "p99_ms": 11.14, "mean_ms": 8.14, "rps_ok": 122.8, "errors": {}}
+{"label": "bento_batch1s", "conc": 8, "n": 1000, "p50_ms": 15.29, "p99_ms": 41.37, "mean_ms": 18.2, "rps_ok": 437.8, "errors": {}}
+{"label": "bento_batch1s", "conc": 32, "n": 1000, "p50_ms": 36.26, "p99_ms": 549.1, "mean_ms": 77.15, "rps_ok": 412.3, "errors": {}}

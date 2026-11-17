@@ -1,0 +1,20 @@
+## bentoml models list
+ Tag                             Module          Size       Creation Time       
+ income-rf-live:474z43xcq2zmw4…  bentoml.mlflow  32.13 MiB  2026-11-17 22:00:47 
+ income-rf-built:cgjgpnxcq2jmy…  bentoml.mlflow  32.13 MiB  2026-11-17 21:54:47 
+ income-rf-live:aoaoy7xcq2sgpv…  bentoml.mlflow  32.13 MiB  2026-11-17 21:54:23 
+ income-rf-live:3hiewghcqwi5br…  bentoml.mlflow  2.08 MiB   2026-11-17 21:53:13 
+ income-rf-built:z62iscxcqwce4…  bentoml.mlflow  2.08 MiB   2026-11-17 21:52:56 
+## bentoml list
+ Tag                            Size       Model Size  Creation Time       
+ income_built:cit3n5hcq2qndhm6  23.27 KiB  32.13 MiB   2026-11-17 21:54:48 
+ income_built:bwetguxcq2oi4vki  23.27 KiB  2.08 MiB    2026-11-17 21:54:40 
+ income_built:2b7kdohcqwuk6f5j  23.27 KiB  2.08 MiB    2026-11-17 21:52:58 
+## du store
+ 32M	$LAB/bentoml_home/models/income-rf-built/cgjgpnxcq2jmyxzt
+4.0K	$LAB/bentoml_home/models/income-rf-built/latest
+2.1M	$LAB/bentoml_home/models/income-rf-built/z62iscxcqwce47yi
+2.1M	$LAB/bentoml_home/models/income-rf-live/3hiewghcqwi5brp2
+ 32M	$LAB/bentoml_home/models/income-rf-live/474z43xcq2zmw455
+ 32M	$LAB/bentoml_home/models/income-rf-live/aoaoy7xcq2sgpv7u
+4.0K	$LAB/bentoml_home/models/income-rf-live/latest

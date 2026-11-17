@@ -1,0 +1,23 @@
+{
+ "v1": {
+  "run_id": "76a88e43cef74523a6f592c09d123a64",
+  "version": "1",
+  "model_id": "m-6397b6e1b75a4e789318d3709a8a0296",
+  "params": {
+   "n_estimators": 50,
+   "max_depth": 8,
+   "random_state": 1
+  }
+ },
+ "v2": {
+  "run_id": "ab4251c399784bef9f80ab3fda91e7a4",
+  "version": "2",
+  "model_id": "m-db2f04b8911d45a19d61154f2867509f",
+  "params": {
+   "n_estimators": 200,
+   "max_depth": null,
+   "min_samples_leaf": 2,
+   "random_state": 2
+  }
+ }
+}

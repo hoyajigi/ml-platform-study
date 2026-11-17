@@ -1,0 +1,8 @@
+service: "service_built:IncomeBuilt"
+labels:
+  owner: study
+  stage: week5
+include:
+  - "service_built.py"
+python:
+  packages: ["mlflow", "scikit-learn", "pandas"]
